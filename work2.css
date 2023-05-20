@@ -1,0 +1,188 @@
+
+p {
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.tech:hover{
+    color:deeppink;
+    transition: ease-in-out 1ss;
+}
+
+.hire:hover{
+    color: greenyellow;
+}
+
+
+body{
+    background: url(../j.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+color: cyan;
+margin-top: 50px;
+font-size: bold;
+}
+
+.signupbox{
+background: rgba(44, 62, 80, 0.5);
+/*padding: 200px;*/
+width: 400px;
+/*margin-top: 90px;*/
+margin-left: 180px;
+margin: 0 auto;
+text-align: center;
+}
+
+h2{
+    
+    font-size: large;
+    font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu,
+      Cantarell, 'Open Sans', 'Helvetica Neue', 
+      sans-serif;
+      color: red;
+      text-align: center;
+      font-size: 30px;
+      border-top: 50px;
+      background-color: white;
+}
+h3{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana,
+     sans-serif ;
+    color: indigo;
+    border-color: yellow;
+    border-width: 20px;
+    border-style:groove;
+    background-color:powderblue;
+   
+}
+span{
+    color: black;
+    font-family:monospace;
+    text-align:justify;
+    margin-left: 20px;
+}
+h7{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hire{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-left: 60px;
+}
+h8{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: violet;
+    margin-top: 50px;
+}
+
+span{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+    font-weight: bold;
+   margin-left: 80px;
+    font-size: smaller;
+}
+
+span:hover{
+    color: blueviolet;
+}
+
+h1{
+    font-size: 30px;
+    color: crimson;
+    background-color: white;
+    font-family: 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+     width: fit-content;
+     text-align: center;
+     text-decoration: line-through;
+     margin-left: 40px;
+}
+
+.prog{
+    margin-left: 90px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: deeppink;
+    border-width:initial;
+    border-style:dotted;
+     background-color: wheat;
+     text-decoration:line-through;
+     width: fit-content;
+     align-items: center;
+     justify-content: center;
+     text-decoration: line-through;
+}
+h4{
+    color: yellow;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+}
+.link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+
+}
+
+input {
+    width: 249px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;;
+    font-size: 25px;
+    font-weight: 300px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+    color: white;
+}
+button {
+    border: none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px  0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+.signupbox h4 {
+color: gold;
+margin-right: 150px;
+font-style:oblique;
+font-weight:lighter;
+}
+.signupbox h4:hover{
+    color: cyan;
+}
+a{
+    color: gold;
+}
+a:hover{
+    color: cyan;
+}
+
+::placeholder {
+    color: cyan;
+    opacity: 0.6;
+    
+}
